@@ -1,0 +1,14 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/rest/campaigns/current?.*"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "campaigns-service/current_campaign.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
